@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import ES7Snippets from './components/ES7Snippets';
+
+
+
 /* Statefull F.C */
-import StatefullGreetings from './components/StatefullGreetings';
-
-
-
+/* import StatefullGreetingsWithPrevs from './components/StateGreetingsWithPrevs'; */
 
 /* Stateless F.C */
 /* import FunctionalGreeting from "./components/FunctionalGreeting";
@@ -15,8 +16,15 @@ import HalaakaWithProps from './components/HalaakaWithProps'; */
 function App() {
   return (
     <div className="App">
-      <StatefullGreetings greeting="Welcome to central bank" name="Honolulu" option="Add meeting" />
+      
     </div>
+
+
+
+    /* Statfull F.C */
+    /* <div className="App">
+      <StatefullGreetingsWithPrevs greeting="Welcome to central bank" name="Honolulu" option="Add meeting" />
+    </div> */
 
     /* Stateless F.C */
     /* <div className="App">

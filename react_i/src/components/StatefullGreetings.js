@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 
 class StatefullGreetings extends React.Component {
 
@@ -30,4 +30,4 @@ class StatefullGreetings extends React.Component {
     }
 }
 
-export default StatefullGreetings;
+export default StatefullGreetings; */
