@@ -15,7 +15,7 @@ import HalaakaWithProps from './components/HalaakaWithProps'; */
 function App() {
   return (
     <div className="App">
-      <StatefullGreetings greeting="Welcome to central bank" name="Ali" />
+      <StatefullGreetings greeting="Welcome to central bank" name="Honolulu" option="Add meeting" />
     </div>
 
     /* Stateless F.C */
