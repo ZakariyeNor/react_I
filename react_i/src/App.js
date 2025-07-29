@@ -1,8 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import ES7Snippets from './components/ES7Snippets';
+import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 
 
+/* Event Binding */
+/* import EventBinding from './components/EventBinding'; */
+
+/* Events */
+/* import EventsFunctional from './components/EventsFunctional'; */
+/* import EventsClass from './components/EventsClass'; */
+
+/* ES7 snippets */
+/* import ES7Snippets from './components/ES7Snippets'; */
 
 /* Statefull F.C */
 /* import StatefullGreetingsWithPrevs from './components/StateGreetingsWithPrevs'; */
@@ -16,10 +26,19 @@ import HalaakaWithProps from './components/HalaakaWithProps'; */
 function App() {
   return (
     <div className="App">
-      
+      <ConditionalRenderingClass />
+      <ConditionalRenderingFunctional user={false} />
     </div>
 
+    /* Event binding
+    <div className="App">
+      <EventBinding />
+    </div> */
 
+    /* <div className="App">
+      <EventsClass />
+      <EventsFunctional />
+    </div> */
 
     /* Statfull F.C */
     /* <div className="App">
