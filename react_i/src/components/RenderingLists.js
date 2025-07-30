@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 import Shoe from './Shoe';
 
 function RenderingLists() {
@@ -30,13 +30,13 @@ function RenderingLists() {
     return (
         <div>
             {showItems.map(shoe => {
-                return <h3>{shoe}</h3>
+                return <h3 key={shoe}>{shoe}</h3>
             })}
             <hr />
             {
                 shoes.map(shoow => {
                     return (
-                        <div>
+                        <div key={shoow.title}>
                             <h4>{shoow.title}</h4>
                             <p>{shoow.manufacturer}</p>
                             <p>{shoow.price}</p>
@@ -46,12 +46,12 @@ function RenderingLists() {
             }
             <hr />
             {
-                shoes.map(shoow => {
-                    return <Shoe shoow={shoow} />
+                shoes.map((shoow, index) => {
+                    return <Shoe key={index} shoow={shoow} />
                 })
             }
         </div>
     )
 }
 
-export default RenderingLists
+export default RenderingLists */

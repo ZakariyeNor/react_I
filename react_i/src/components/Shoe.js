@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 
 function Shoe(props) {
     const shoow = props.shoow
@@ -11,4 +11,4 @@ function Shoe(props) {
     )
 }
 
-export default Shoe
+export default Shoe */

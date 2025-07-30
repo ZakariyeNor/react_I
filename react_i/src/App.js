@@ -35,10 +35,17 @@ import HalaakaWithProps from './components/HalaakaWithProps'; */
 function App() {
   return (
     <div className="App">
-      <RenderingLists />
+      <App />
     </div>
     
-    
+
+
+
+    /* Rendering lists */
+    /* <div className="App">
+      <RenderingLists />
+    </div>
+     */
     /* React data flow */
     /* <div className="App">
       <MethodsAsPropsParent />
