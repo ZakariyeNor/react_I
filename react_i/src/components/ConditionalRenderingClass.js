@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+/* import React, { Component } from 'react'
 
 export class ConditionalRenderingClass extends Component {
     constructor(props) {
@@ -58,4 +58,4 @@ export class ConditionalRenderingClass extends Component {
   }
 }
 
-export default ConditionalRenderingClass
+export default ConditionalRenderingClass */

@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 
 function ConditionalRenderingFunctional(props) {
   return (
@@ -8,4 +8,4 @@ function ConditionalRenderingFunctional(props) {
   )
 }
 
-export default ConditionalRenderingFunctional
+export default ConditionalRenderingFunctional */

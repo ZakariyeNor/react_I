@@ -1,8 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import ConditionalRenderingClass from './components/ConditionalRenderingClass';
-import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+import RenderingLists from './components/RenderingLists';
 
+/* React data flow */
+/* import MethodsAsPropsChild from './components/MethodsAsPropsChild';
+import MethodsAsPropsParent from './components/MethodsAsPropsParent'; */
+
+/* Nesting components */
+/* import NestingComponents from './components/NestingComponents'; */
+
+/* Conditional components */
+/* import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional'; */
 
 /* Event Binding */
 /* import EventBinding from './components/EventBinding'; */
@@ -26,9 +35,26 @@ import HalaakaWithProps from './components/HalaakaWithProps'; */
 function App() {
   return (
     <div className="App">
+      <RenderingLists />
+    </div>
+    
+    
+    /* React data flow */
+    /* <div className="App">
+      <MethodsAsPropsParent />
+    </div> */
+    
+    /* Nesting Components */
+    /* <div className="App">
+      <NestingComponents />
+    </div> */
+
+
+    /* Conditional Rendering */
+    /* <div className="App">
       <ConditionalRenderingClass />
       <ConditionalRenderingFunctional user={false} />
-    </div>
+    </div> */
 
     /* Event binding
     <div className="App">
