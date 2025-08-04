@@ -1,6 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-import RenderingLists from './components/RenderingLists';
+
+
+
+/* ComponentWilUnmount */
+import LifeCyclesCWU from './components/LifeCyclesCWU';
+
+/* ComponentDidMount */
+/* import LifeCyclesCDU from './components/LifeCyclesCDU'; */
+
+/* ComponentDidMount */
+/* import LifeCyclesCDM from './components/LifeCyclesCDM'; */
+
+/* Rendering lists */
+/* import RenderingLists from './components/RenderingLists'; */
 
 /* React data flow */
 /* import MethodsAsPropsChild from './components/MethodsAsPropsChild';
@@ -35,17 +48,31 @@ import HalaakaWithProps from './components/HalaakaWithProps'; */
 function App() {
   return (
     <div className="App">
-      <App />
+      
     </div>
+
+    /* LifecyckleWillUnmount */
+    /* <div className="App">
+      <LifeCyclesCWU />
+    </div> */
+
+   /* LifecyckleDidUpdate */
+   /*  <div className="App">
+      <LifeCyclesCDU />
+    </div> */
     
-
-
+    /* ComponentDidMount */
+    /* <div className="App">
+      <LifeCyclesCDM />
+    </div>
+     */
 
     /* Rendering lists */
     /* <div className="App">
       <RenderingLists />
     </div>
      */
+
     /* React data flow */
     /* <div className="App">
       <MethodsAsPropsParent />
@@ -55,7 +82,6 @@ function App() {
     /* <div className="App">
       <NestingComponents />
     </div> */
-
 
     /* Conditional Rendering */
     /* <div className="App">
