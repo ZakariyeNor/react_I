@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import SearchBar from './components/SearchBar';
 
 
 
@@ -57,7 +57,7 @@ import HalaakaWithProps from './components/HalaakaWithProps'; */
 function App() {
   return (
     <div className="App">
-      <UNControlledForm />
+      <SearchBar />
     </div>
 
 

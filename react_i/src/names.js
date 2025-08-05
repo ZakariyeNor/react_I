@@ -96,6 +96,8 @@ const names = [
   "Caleb Carter",
   "Lillian Gonzalez",
   "Luke Johnson",
+  "Max Peterson",
+  "Stella Brooks",
   "Penelope Brown"
 ]
 
