@@ -3,6 +3,15 @@ import './App.css';
 
 
 
+
+
+
+/* ControlledForm */
+/* import UNControlledForm from './components/UnControlledForm'; */
+
+/* ControlledForm */
+import ControlledForm from './components/ControlledForm';
+
 /* ComponentWilUnmount */
 import LifeCyclesCWU from './components/LifeCyclesCWU';
 
@@ -48,8 +57,19 @@ import HalaakaWithProps from './components/HalaakaWithProps'; */
 function App() {
   return (
     <div className="App">
-      
+      <UNControlledForm />
     </div>
+
+
+    /* UncontrolledForm */
+    /* 
+    <div className="App">
+      <UNControlledForm />
+    </div> */
+    /* ControlledForm */
+    /* <div className="App">
+      <ControlledForm />
+    </div> */
 
     /* LifecyckleWillUnmount */
     /* <div className="App">
