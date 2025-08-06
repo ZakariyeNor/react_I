@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+/* import React, {useState} from 'react'
 
 function UseStateWithObjects() {
     const [name, setName] = useState({ firstName: "", lastName: "" });
@@ -30,4 +30,4 @@ function UseStateWithObjects() {
   )
 }
 
-export default UseStateWithObjects
+export default UseStateWithObjects */

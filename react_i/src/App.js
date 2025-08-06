@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import UseStateWithObjects from './components/UseStateWithObjects';
+import UseEffectCounter from './components/UseEffectCounter';
 
-
+/* UseStateWithObjects
+import UseStateWithObjects from './components/UseStateWithObjects'; */
 
 /* UseStateWithArrays
 import UseStateWithArrays from './components/UseStateWithArrays'; */
@@ -17,10 +18,10 @@ import ControlledFormHooks from './components/ControlledFormHooks'; */
 /* import UNControlledForm from './components/UnControlledForm'; */
 
 /* ControlledForm */
-import ControlledForm from './components/ControlledForm';
+/* import ControlledForm from './components/ControlledForm'; */
 
 /* ComponentWilUnmount */
-import LifeCyclesCWU from './components/LifeCyclesCWU';
+/* import LifeCyclesCWU from './components/LifeCyclesCWU'; */
 
 /* ComponentDidMount */
 /* import LifeCyclesCDU from './components/LifeCyclesCDU'; */
@@ -64,9 +65,12 @@ import HalaakaWithProps from './components/HalaakaWithProps'; */
 function App() {
   return (
     <div className='App'>
-      <UseStateWithObjects />
+      <UseEffectCounter  />
     </div>
 
+    /* <div className='App'>
+      <UseStateWithObjects />
+    </div> */
     /* UseStateWithArrays
     <div className='App'>
       <UseStateWithArrays />
