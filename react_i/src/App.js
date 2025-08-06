@@ -1,10 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import SearchBar from './components/SearchBar';
+import UseStateWithObjects from './components/UseStateWithObjects';
 
 
 
+/* UseStateWithArrays
+import UseStateWithArrays from './components/UseStateWithArrays'; */
 
+/* Controlled Form With Hooks
+import ControlledFormHooks from './components/ControlledFormHooks'; */
+
+/* Mini challenge searching bar */
+/* import SearchBar from './components/SearchBar'; */
 
 /* ControlledForm */
 /* import UNControlledForm from './components/UnControlledForm'; */
@@ -56,10 +63,24 @@ import HalaakaWithProps from './components/HalaakaWithProps'; */
 
 function App() {
   return (
-    <div className="App">
-      <SearchBar />
+    <div className='App'>
+      <UseStateWithObjects />
     </div>
 
+    /* UseStateWithArrays
+    <div className='App'>
+      <UseStateWithArrays />
+    </div> */
+
+    /* Controlled Form With Hooks
+    <div className='App'>
+      <ControlledFormHooks />
+    </div> */
+    /* Mini challenge search bar */
+    /* <div className="App">
+      <SearchBar />
+    </div>
+    */
 
     /* UncontrolledForm */
     /* 

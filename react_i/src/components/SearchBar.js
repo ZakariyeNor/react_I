@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+/* import React, { Component } from 'react'
 import importedNames from '../names'
 import names from '../names'
 export class SearchBar extends Component {
@@ -47,4 +47,4 @@ export class SearchBar extends Component {
   }
 }
 
-export default SearchBar
+export default SearchBar */
