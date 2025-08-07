@@ -1,6 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import UseEffectCounter from './components/UseEffectCounter';
+
+
+/* UseEffectCounterConditionCleaanUp
+import UseEffectCounterConditionCleaanUp from './components/UseEffectCounterConditionCleaanUp'; */
+
+
+
+/* UseEffectCounter
+import UseEffectCounter from './components/UseEffectCounter'; */
 
 /* UseStateWithObjects
 import UseStateWithObjects from './components/UseStateWithObjects'; */
@@ -65,8 +73,17 @@ import HalaakaWithProps from './components/HalaakaWithProps'; */
 function App() {
   return (
     <div className='App'>
-      <UseEffectCounter  />
+      <ss />
     </div>
+
+    /* <div className='App'>
+      <UseEffectCounterConditionCleaanUp />
+    </div> */
+    
+    /* UseEffectCounter */
+    /* <div className='App'>
+      <UseEffectCounter  />
+    </div> */
 
     /* <div className='App'>
       <UseStateWithObjects />
