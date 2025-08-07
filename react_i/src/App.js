@@ -1,12 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import HTTPRequests from './components/HTTPRequests';
+/* HTTPHooks */
+/* import HTTPHooks from './components/HTTPHooks'; */
 
+/*  HTTP Post
+import HTTPost from './components/HTTPost'; */
+
+/* HTTPRequests 
+import HTTPRequests from './components/HTTPRequests';
+ */
 
 /* UseEffectCounterConditionCleaanUp
 import UseEffectCounterConditionCleaanUp from './components/UseEffectCounterConditionCleaanUp'; */
-
-
 
 /* UseEffectCounter
 import UseEffectCounter from './components/UseEffectCounter'; */
@@ -73,9 +78,20 @@ import HalaakaWithProps from './components/HalaakaWithProps'; */
 
 function App() {
   return (
-    <div className='App'>
+    /* HTTPHooks */
+    /* <div className='App'>
+      <HTTPHooks />
+    </div> */
+    
+    /* HTTPost */
+    /* <div className='App'>
+      <HTTPost />
+    </div> */
+
+    /* HTTPRequests */
+    /* <div className='App'>
       <HTTPRequests />
-    </div>
+    </div> */
 
     /* <div className='App'>
       <UseEffectCounterConditionCleaanUp />
