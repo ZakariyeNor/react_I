@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import HTTPRequests from './components/HTTPRequests';
 
 
 /* UseEffectCounterConditionCleaanUp
@@ -73,7 +74,7 @@ import HalaakaWithProps from './components/HalaakaWithProps'; */
 function App() {
   return (
     <div className='App'>
-      <ss />
+      <HTTPRequests />
     </div>
 
     /* <div className='App'>
